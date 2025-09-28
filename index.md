@@ -1,7 +1,18 @@
 ---
-layout: home
+layout: centered
 ---
 
-# Bitcoin setrið
+<h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-8">Hvað er vandamálið?</h1>
 
-Welcome to Bitcoin setrið!
+<div class="w-full max-w-4xl mx-auto">
+    <div class="aspect-video">
+        <iframe
+            class="w-full h-full rounded-lg shadow-lg"
+            src="https://www.youtube.com/embed/YtFOxNbmD38?start=50"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+    </div>
+</div>
