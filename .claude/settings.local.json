@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export:*)",
+      "Bash(bundle:*)",
+      "Bash(xcode-select:*)",
+      "Bash(gem install:*)",
+      "Bash(docker run:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
