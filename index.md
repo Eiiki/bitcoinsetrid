@@ -2,7 +2,7 @@
 layout: centered
 ---
 
-<h1 class="text-4xl md:text-6xl font-bold text-white mb-8">Hvað er vandamálið?</h1>
+<h1 class="text-white mb-8" style="font-size: 48px; font-weight: normal;">Hvað er vandamálið?</h1>
 
 <div class="w-full max-w-4xl mx-auto">
     <div class="aspect-video">
