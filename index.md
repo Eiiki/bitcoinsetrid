@@ -8,7 +8,7 @@ layout: centered
     <div class="aspect-video">
         <iframe
             class="w-full h-full rounded-lg shadow-lg"
-            src="https://www.youtube.com/embed/YtFOxNbmD38?start=50"
+            src="https://www.youtube.com/embed/gMPLGAeEglY"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

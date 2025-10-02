@@ -1,2 +1,0 @@
-# bitcoinsetrid
-Bitcoin setrið
