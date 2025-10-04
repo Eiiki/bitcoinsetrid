@@ -1,61 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title | default: site.title }}</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        'poppins': ['Poppins', 'Poppins Placeholder', 'sans-serif'],
-                    }
-                }
-            }
-        }
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              poppins: ["Poppins", "Poppins Placeholder", "sans-serif"],
+            },
+          },
+        },
+      };
     </script>
     <style>
-        body {
-            font-family: Inter, "Inter Placeholder", sans-serif;
-            font-feature-settings: normal;
-            font-style: normal;
-            font-variation-settings: normal;
-            font-weight: 400;
-            background-color: #05184D;
-            background-image:
-                linear-gradient(#11235D 1px, transparent 1px),
-                linear-gradient(90deg, #11235D 1px, transparent 1px),
-                repeating-linear-gradient(0deg, transparent, transparent 49px, rgba(17, 35, 93, 0.4) 49px, rgba(17, 35, 93, 0.4) 50px, transparent 50px, transparent 99px, #11235D 99px, #11235D 100px),
-                repeating-linear-gradient(90deg, transparent, transparent 49px, rgba(17, 35, 93, 0.4) 49px, rgba(17, 35, 93, 0.4) 50px, transparent 50px, transparent 99px, #11235D 99px, #11235D 100px);
-            background-size: 100px 100px, 100px 100px, 100px 100px, 100px 100px;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            font-family: Poppins, "Poppins Placeholder", sans-serif;
-            font-weight: 400;
-            line-height: 1.2em;
-        }
-        p {
-            font-size: 16px;
-            line-height: 1.2em;
-        }
+      body {
+        font-family: Inter, "Inter Placeholder", sans-serif;
+        font-feature-settings: normal;
+        font-style: normal;
+        font-variation-settings: normal;
+        font-weight: 400;
+        background-color: #05184d;
+        background-image: linear-gradient(#11235d 1px, transparent 1px),
+          linear-gradient(90deg, #11235d 1px, transparent 1px),
+          repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 49px,
+            rgba(17, 35, 93, 0.4) 49px,
+            rgba(17, 35, 93, 0.4) 50px,
+            transparent 50px,
+            transparent 99px,
+            #11235d 99px,
+            #11235d 100px
+          ),
+          repeating-linear-gradient(
+            90deg,
+            transparent,
+            transparent 49px,
+            rgba(17, 35, 93, 0.4) 49px,
+            rgba(17, 35, 93, 0.4) 50px,
+            transparent 50px,
+            transparent 99px,
+            #11235d 99px,
+            #11235d 100px
+          );
+        background-size: 100px 100px, 100px 100px, 100px 100px, 100px 100px;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: Poppins, "Poppins Placeholder", sans-serif;
+        font-weight: 400;
+        line-height: 1.2em;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.2em;
+      }
+      .box-content {
+        background-color: rgba(0, 0, 0, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        position: relative;
+      }
+      .box-image {
+        z-index: 1;
+      }
+      .box-image img {
+        transition: transform 0.3s ease;
+      }
+      .box-content:hover .box-image img {
+        transform: scale(1.1);
+      }
+      .box-button {
+        z-index: 2;
+        transition: background-color 0.3s ease;
+        border: 1px solid rgba(237, 137, 14, 1);
+        background-color: rgba(237, 137, 14, 1);
+      }
+      .box-button:hover {
+        opacity: 0.7 !important;
+        background-color: rgba(237, 137, 14, 0);
+      }
+      .framer-bottom {
+        z-index: 0;
+        flex: none;
+        width: 236px;
+        height: 261px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        overflow: visible;
+        background-color: var(
+          --token-305af9d4-fe33-4ce3-9dac-e261fb045b39,
+          rgb(237, 137, 14)
+        );
+        filter: blur(100px);
+        opacity: 0.7;
+      }
     </style>
-</head>
-<body class="min-h-screen text-white">
+  </head>
+  <body class="min-h-screen text-white">
     <header class="w-full py-6 px-8">
-        <nav class="max-w-7xl mx-auto flex justify-between items-center">
-            <a href="/" class="text-2xl font-semibold">
-                <span style="color: rgb(242, 169, 0);">Bitcoin</span><span class="text-white"> Setrið</span>
-            </a>
-            <div class="flex gap-8">
-                <a href="/efni" class="text-white hover:text-gray-300 transition-colors">Efni</a>
-            </div>
-        </nav>
+      <nav class="max-w-7xl mx-auto flex justify-between items-center">
+        <a href="/" class="text-2xl font-semibold">
+          <span style="color: rgb(242, 169, 0)">Bitcoin</span
+          ><span class="text-white"> Setrið</span>
+        </a>
+        <div class="flex gap-8">
+          <a
+            href="/efni"
+            class="text-white hover:text-gray-300 transition-colors"
+            >Efni</a
+          >
+        </div>
+      </nav>
     </header>
     {{ content }}
-</body>
+  </body>
 </html>
