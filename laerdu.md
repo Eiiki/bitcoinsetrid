@@ -4,7 +4,7 @@ layout: default
 
 <div class="max-w-7xl mx-auto px-8 py-16">
     <div class="text-center mb-16">
-        <h1 class="text-5xl font-bold mb-6">Velkomin í Bitcoin</h1>
+        <h1 class="title font-bold mb-6">Velkomin í Bitcoin</h1>
         <p class="text-lg text-gray-300">Bitcoin mun hjálpa þér að læra það sem þú heldur að þú vitir um peninga.</p>
         <p class="text-lg text-gray-300 mb-2">Byrjaðu á að læra um Bitcoin áður en þú ferð að kaupa. 🧡</p>
         <p class="text-lg text-gray-300">Þú ert enn snemma.</p>

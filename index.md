@@ -2,7 +2,8 @@
 layout: centered
 ---
 
-<h1 class="text-white mb-8" style="font-size: 48px; font-weight: normal;">Hvað er vandamálið?</h1>
+<h1 class="title text-white mb-2">Hvað er vandamálið?</h1>
+<p class="text-lg text-gray-300 mb-8">Afhjúpun á því hvers vegna heimurinn þarf Bitcoin</p>
 
 <div class="w-full max-w-4xl mx-auto">
     <div class="aspect-video">
