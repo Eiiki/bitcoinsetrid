@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<div class="max-w-7xl mx-auto px-8 py-16">
-    <div class="text-center mb-16">
-        <h1 class="title font-bold mb-6">Velkomin í Bitcoin</h1>
-        <p class="text-lg text-gray-300">Bitcoin mun hjálpa þér að læra það sem þú heldur að þú vitir um peninga.</p>
-        <p class="text-lg text-gray-300 mb-2">Byrjaðu á að læra um Bitcoin áður en þú ferð að kaupa. 🧡</p>
-        <p class="text-lg text-gray-300">Þú ert enn snemma.</p>
+<div class="max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-16">
+    <div class="text-center mb-8 md:mb-16">
+        <h1 class="title font-bold mb-4 md:mb-6">Velkomin í Bitcoin</h1>
+        <p class="text-base md:text-lg text-gray-300">Bitcoin mun hjálpa þér að læra það sem þú heldur að þú vitir um peninga.</p>
+        <p class="text-base md:text-lg text-gray-300 mb-2">Byrjaðu á að læra um Bitcoin áður en þú ferð að kaupa. 🧡</p>
+        <p class="text-base md:text-lg text-gray-300">Þú ert enn snemma.</p>
     </div>
 
-    <h2 class="text-4xl font-bold text-center mb-12">Fyrstu Myndbönd</h2>
+    <h2 class="font-bold text-center mb-8 md:mb-12">Fyrstu Myndbönd</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Video 1 -->
@@ -98,7 +98,7 @@ layout: default
         </a>
     </div>
 
-    <h2 class="text-4xl font-bold text-center mb-12 mt-20">Fyrstu Bækur</h2>
+    <h2 class="font-bold text-center mb-8 md:mb-12 mt-12 md:mt-20">Fyrstu Bækur</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Book 1 -->

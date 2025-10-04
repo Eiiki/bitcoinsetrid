@@ -57,7 +57,16 @@
         background-size: 100px 100px, 100px 100px, 100px 100px, 100px 100px;
       }
       h1.title {
-        font-size: 75px;
+        font-size: clamp(1.75rem, 8vw, 4.688rem);
+      }
+      h1 {
+        font-size: clamp(1.5rem, 5vw, 3rem);
+      }
+      h2 {
+        font-size: clamp(1.5rem, 4vw, 2.25rem);
+      }
+      h3 {
+        font-size: clamp(1.25rem, 3vw, 1.5rem);
       }
       h1,
       h2,
@@ -70,8 +79,8 @@
         line-height: 1.2em;
       }
       p {
-        font-size: 16px;
-        line-height: 1.2em;
+        font-size: clamp(0.875rem, 2vw, 1rem);
+        line-height: 1.5em;
       }
       .box-content {
         background-color: rgba(0, 0, 0, 0.8);
@@ -116,16 +125,16 @@
     </style>
   </head>
   <body class="min-h-screen text-white">
-    <header class="w-full py-6 px-8">
+    <header class="w-full py-4 md:py-6 px-4 md:px-8">
       <nav class="max-w-7xl mx-auto flex justify-between items-center">
-        <a href="/" class="text-2xl font-semibold">
+        <a href="/" class="text-xl md:text-2xl font-semibold">
           <span style="color: rgb(242, 169, 0)">Bitcoin</span
           ><span class="text-white"> Setrið</span>
         </a>
-        <div class="flex gap-8">
+        <div class="flex gap-4 md:gap-8">
           <a
             href="/laerdu"
-            class="text-white hover:text-gray-300 transition-colors"
+            class="text-sm md:text-base text-white hover:text-gray-300 transition-colors"
             >Lærðu meira</a
           >
         </div>
