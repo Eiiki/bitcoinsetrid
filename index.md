@@ -23,7 +23,7 @@ layout: default
 
 </div>
 
-<div class="max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-16">
+<div class="fade-in-section max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-16">
     <div class="text-center mb-8 md:mb-16">
         <h1 class="title text-white mb-2">Lærðu meira</h1>
         <p class="text-base md:text-lg text-gray-300">Bitcoin mun hjálpa þér að læra það sem þú heldur að þú vitir um peninga.</p>
