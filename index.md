@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<div class="flex flex-col items-center justify-center px-4 md:px-8 py-8 md:py-16">
+<div class="flex flex-col items-center justify-center px-4 md:px-8 py-8 md:py-16 mb-12">
     <div class="text-center max-w-4xl w-full mb-12">
         <h1 class="title text-white mb-2">Hvað er vandamálið?</h1>
-        <p class="text-lg text-gray-300 mb-8">Afhjúpun á því hvers vegna heimurinn þarf Bitcoin</p>
+        <p class="text-lg text-gray-300 mb-8">Rýnum í vandamálin sem heimurinn stendur frammi<br/>fyrir í dag og hver er mögulega lausnin.</p>
 
         <div class="w-full max-w-4xl mx-auto">
             <div class="aspect-video">
@@ -30,16 +30,15 @@ layout: default
 </div>
 
 <div class="fade-in-section max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-16">
-    <div class="text-center mb-8 md:mb-16">
+    <div class="text-center mb-16 md:mb-48">
         <h1 class="title text-white mb-2">Lærðu meira</h1>
         <p class="text-base md:text-lg text-gray-300">Bitcoin mun hjálpa þér að læra það sem þú heldur að þú vitir um peninga.</p>
-        <p class="text-base md:text-lg text-gray-300 mb-2">Byrjaðu á að læra um Bitcoin áður en þú ferð að kaupa. 🧡</p>
-        <p class="text-base md:text-lg text-gray-300">Þú ert enn snemma.</p>
+        <p class="text-base md:text-lg text-gray-300 mb-2">Byrjaðu á að læra um Bitcoin áður en þú ferð að kaupa.</p>
     </div>
 
-    <h2 class="section-title font-bold text-center mb-8 md:mb-12">Fyrstu Myndbönd</h2>
+    <h2 class="section-title text-center mb-8 md:mb-12">Myndbönd til að byrja á</h2>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 md:mb-32">
         <!-- Video 1 -->
         <a href="https://www.youtube.com/@SatsVsFiat" target="_blank" class="box-content rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer flex flex-col">
             <div class="box-image h-44 overflow-hidden flex-shrink-0">
@@ -125,9 +124,9 @@ layout: default
         </a>
     </div>
 
-    <h2 class="section-title font-bold text-center mb-8 md:mb-12 mt-12 md:mt-20">Fyrstu Bækur</h2>
+    <h2 class="section-title text-center mb-8 md:mb-12 mt-12 md:mt-20">Bækur til að byrja á</h2>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 md:mb-32">
         <!-- Book 1 -->
         <a href="https://books2read.com/whatstheproblem" target="_blank" class="box-content rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer flex flex-col">
             <div class="box-image h-44 overflow-hidden flex-shrink-0">
@@ -214,8 +213,8 @@ layout: default
     </div>
 
     <div class="text-center mt-12 md:mt-20 mb-8 md:mb-12">
-        <h2 class="section-title font-bold mb-4">Hvað er næst?</h2>
-        <p class="text-base md:text-lg text-gray-300">Við viljum að allir skilji hvers vegna Bitcoin er svarið</p>
+        <h2 class="section-title mb-4">Hvað er næst?</h2>
+        <p class="text-base md:text-lg text-gray-300">Við viljum að allir skilji hvers vegna Bitcoin er svarið.</p>
     </div>
 
     <div class="max-w-md mx-auto">
