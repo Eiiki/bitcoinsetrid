@@ -37,7 +37,7 @@ layout: default
         <p class="text-base md:text-lg text-gray-300">Þú ert enn snemma.</p>
     </div>
 
-    <h2 class="font-bold text-center mb-8 md:mb-12">Fyrstu Myndbönd</h2>
+    <h2 class="section-title font-bold text-center mb-8 md:mb-12">Fyrstu Myndbönd</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Video 1 -->
@@ -125,7 +125,7 @@ layout: default
         </a>
     </div>
 
-    <h2 class="font-bold text-center mb-8 md:mb-12 mt-12 md:mt-20">Fyrstu Bækur</h2>
+    <h2 class="section-title font-bold text-center mb-8 md:mb-12 mt-12 md:mt-20">Fyrstu Bækur</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Book 1 -->
@@ -214,7 +214,7 @@ layout: default
     </div>
 
     <div class="text-center mt-12 md:mt-20 mb-8 md:mb-12">
-        <h2 class="font-bold mb-4">Hvað er næst?</h2>
+        <h2 class="section-title font-bold mb-4">Hvað er næst?</h2>
         <p class="text-base md:text-lg text-gray-300">Við viljum að allir skilji hvers vegna Bitcoin er svarið</p>
     </div>
 
