@@ -21,6 +21,12 @@ layout: default
         </div>
     </div>
 
+    <div class="text-center mt-8">
+        <a href="https://x.com/BitcoinSetrid" target="_blank" class="inline-block px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-colors duration-300">
+            Fylgdu okkur á X
+        </a>
+    </div>
+
 </div>
 
 <div class="fade-in-section max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-16">
@@ -35,14 +41,14 @@ layout: default
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Video 1 -->
-        <a href="https://youtu.be/bFnKs8LYUlA" target="_blank" class="box-content rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer flex flex-col">
+        <a href="https://www.youtube.com/@SatsVsFiat" target="_blank" class="box-content rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer flex flex-col">
             <div class="box-image h-44 overflow-hidden flex-shrink-0">
                 <img src="/assets/images/hvad-er-vandamalid.jpg" alt="Hvað er vandamálið?" class="w-full h-full object-cover">
             </div>
             <div class="p-6 flex flex-col flex-grow">
                 <span class="text-orange-500 font-bold text-lg">#1</span>
                 <h3 class="text-xl font-bold mt-2 mb-3">Hvað er vandamálið?</h3>
-                <p class="text-gray-300 text-sm mb-6 flex-grow">Joe Bryan sýnir hvernig stjórnvöld hafa spillt peningunum okkar í gegnum stóra rauða hnappinn. Lausnin er Bitcoin.</p>
+                <p class="text-gray-300 text-sm mb-6 flex-grow">Heimsfræg myndbandaröð eftir Joe Bryan þýdd á fjölda tungumála. Kynntu þér hvers vegna heimurinn þarf Bitcoin.</p>
                 <span class="box-button block w-full py-3 px-4 rounded-lg text-center font-semibold text-white">Sýna mér</span>
             </div>
             <div class="framer-bottom" data-framer-name="Blur"></div>
@@ -205,6 +211,28 @@ layout: default
             </div>
             <div class="framer-bottom" data-framer-name="Blur"></div>
         </a>
+    </div>
+
+    <div class="text-center mt-12 md:mt-20 mb-8 md:mb-12">
+        <h2 class="font-bold mb-4">Hvað er næst?</h2>
+        <p class="text-base md:text-lg text-gray-300">Við viljum að allir skilji hvers vegna Bitcoin er svarið</p>
+    </div>
+
+    <div class="max-w-md mx-auto">
+        <div class="box-content rounded-xl overflow-hidden shadow-lg p-8">
+            <h3 class="text-orange-500 font-bold text-lg mb-4">Bjóðið okkur að koma</h3>
+            <h2 class="text-2xl font-bold mb-6">Bjóðið okkur að halda fyrirlestur</h2>
+            <p class="text-gray-300 mb-6">Við getum haldið fyrirlestur um 'Hvað er vandamálið?' fyrir:</p>
+            <ul class="text-gray-300 mb-8 space-y-2">
+                <li>• Fræðslu- og góðgerðarstofnanir</li>
+                <li>• Ráðstefnur</li>
+                <li>• Fyrirtækjaviðburði</li>
+            </ul>
+            <a href="mailto:hallo@bitcoinsetrid.is" class="box-button block w-full py-3 px-4 rounded-lg text-center font-semibold text-white">
+                Hafðu samband
+            </a>
+            <div class="framer-bottom" data-framer-name="Blur"></div>
+        </div>
     </div>
 
 </div>
