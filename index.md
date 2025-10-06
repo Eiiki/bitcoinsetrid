@@ -5,7 +5,7 @@ layout: default
 <div class="flex flex-col items-center justify-center px-4 md:px-8 py-8 md:py-16 mb-12">
     <div class="text-center max-w-4xl w-full mb-12">
         <h1 class="title text-white mb-2">Hvað er vandamálið?</h1>
-        <p class="text-lg text-gray-300 mb-8">Rýnum í vandamálin sem heimurinn stendur frammi<br/>fyrir í dag og skoðum mögulega lausn.</p>
+        <p class="text-lg text-gray-300 mb-8 max-w-[500px] mx-auto">Rýnum í vandamálin sem heimurinn stendur frammi fyrir í dag og skoðum mögulega lausn.</p>
 
         <div class="w-full max-w-4xl mx-auto">
             <div class="aspect-video">
