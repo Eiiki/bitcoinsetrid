@@ -5,7 +5,7 @@ layout: default
 <div class="flex flex-col items-center justify-center px-4 md:px-8 py-8 md:py-16 mb-12">
     <div class="text-center max-w-4xl w-full mb-12">
         <h1 class="title text-white mb-2">Hvað er vandamálið?</h1>
-        <p class="text-lg text-gray-300 mb-8">Rýnum í vandamálin sem heimurinn stendur frammi<br/>fyrir í dag og hver er mögulega lausnin.</p>
+        <p class="text-lg text-gray-300 mb-8">Rýnum í vandamálin sem heimurinn stendur frammi<br/>fyrir í dag og skoðum mögulega lausn.</p>
 
         <div class="w-full max-w-4xl mx-auto">
             <div class="aspect-video">
@@ -75,7 +75,7 @@ layout: default
             <div class="p-6 flex flex-col flex-grow">
                 <span class="text-orange-500 font-bold text-lg">#3</span>
                 <h3 class="text-xl font-bold mt-2 mb-3">Hvernig Bitcoin virkar</h3>
-                <p class="text-gray-300 text-sm mb-6 flex-grow">Frábær útskýring á því hvaðan Bitcoin kom, hvernig það virkar og hvers vegna það hefur virði.</p>
+                <p class="text-gray-300 text-sm mb-6 flex-grow">Mjög góð útskýring á því hvaðan Bitcoin kom, hvernig það virkar og hvers vegna það hefur virði.</p>
                 <span class="box-button block w-full py-3 px-4 rounded-lg text-center font-semibold text-white">Sýna mér</span>
             </div>
             <div class="framer-bottom" data-framer-name="Blur"></div>
@@ -89,7 +89,7 @@ layout: default
             <div class="p-6 flex flex-col flex-grow">
                 <span class="text-orange-500 font-bold text-lg">#4</span>
                 <h3 class="text-xl font-bold mt-2 mb-3">Bitcoin er alþjóðlegt</h3>
-                <p class="text-gray-300 text-sm mb-6 flex-grow">Ótrúleg sýning Alex Gladstein á Bitcoin sem styrkir viðskipti, orgu og frelsi um allan heim.</p>
+                <p class="text-gray-300 text-sm mb-6 flex-grow">Ótrúleg kynning Alex Gladstein á Bitcoin sem styrkir viðskipti, orgu og frelsi um allan heim.</p>
                 <span class="box-button block w-full py-3 px-4 rounded-lg text-center font-semibold text-white">Sýna mér</span>
             </div>
             <div class="framer-bottom" data-framer-name="Blur"></div>
@@ -117,7 +117,7 @@ layout: default
             <div class="p-6 flex flex-col flex-grow">
                 <span class="text-orange-500 font-bold text-lg">#6</span>
                 <h3 class="text-xl font-bold mt-2 mb-3">Það er enginn annar kostur</h3>
-                <p class="text-gray-300 text-sm mb-6 flex-grow">Glæsileg framsetning Michael Saylor um hvernig Bitcoin er besti eignarflokkurinn.</p>
+                <p class="text-gray-300 text-sm mb-6 flex-grow">Frábær framsetning Michael Saylor um hvernig Bitcoin er besti eignarflokkurinn.</p>
                 <span class="box-button block w-full py-3 px-4 rounded-lg text-center font-semibold text-white">Sýna mér</span>
             </div>
             <div class="framer-bottom" data-framer-name="Blur"></div>
@@ -149,7 +149,7 @@ layout: default
             <div class="p-6 flex flex-col flex-grow">
                 <span class="text-orange-500 font-bold text-lg">#2</span>
                 <h3 class="text-xl font-bold mt-2 mb-3">The Big Print</h3>
-                <p class="text-gray-300 text-sm mb-6 flex-grow">Fullkomið næsta skref eftir Hvað er vandamálið? Lepard útskýrir tengsl verðbólgu, ójöfnuðs og peningakerfisins.</p>
+                <p class="text-gray-300 text-sm mb-6 flex-grow">Fullkomið næsta skref eftir 'Hvað er vandamálið?'. Lepard útskýrir tengsl verðbólgu, ójöfnuðs og peningakerfisins.</p>
                 <span class="box-button block w-full py-3 px-4 rounded-lg text-center font-semibold text-white">Sýna mér</span>
             </div>
             <div class="framer-bottom" data-framer-name="Blur"></div>
@@ -177,7 +177,7 @@ layout: default
             <div class="p-6 flex flex-col flex-grow">
                 <span class="text-orange-500 font-bold text-lg">#4</span>
                 <h3 class="text-xl font-bold mt-2 mb-3">The Price of Tomorrow</h3>
-                <p class="text-gray-300 text-sm mb-6 flex-grow">Sýnir hvernig verðhjöðnun er eðlilegt ástand heimsins í gegnum mannlega framþróun og tækniþróun.</p>
+                <p class="text-gray-300 text-sm mb-6 flex-grow">Sýnir hvernig verðhjöðnun er náttúrulegt ástand heimsins í gegnum mannlega tækniþróun.</p>
                 <span class="box-button block w-full py-3 px-4 rounded-lg text-center font-semibold text-white">Sýna mér</span>
             </div>
             <div class="framer-bottom" data-framer-name="Blur"></div>
@@ -191,7 +191,7 @@ layout: default
             <div class="p-6 flex flex-col flex-grow">
                 <span class="text-orange-500 font-bold text-lg">#5</span>
                 <h3 class="text-xl font-bold mt-2 mb-3">Bullish Case fyrir Bitcoin</h3>
-                <p class="text-gray-300 text-sm mb-6 flex-grow">Sannfærandi rök fyrir því hvers vegna Bitcoin er besta form penings í heiminum og hvernig það er tilbúið að koma í stað alls annars.</p>
+                <p class="text-gray-300 text-sm mb-6 flex-grow">Sannfærandi rök fyrir því hvers vegna Bitcoin er besta peningaform heims og hvernig það sé í stakk búið til að koma í stað annarra kerfa.</p>
                 <span class="box-button block w-full py-3 px-4 rounded-lg text-center font-semibold text-white">Sýna mér</span>
             </div>
             <div class="framer-bottom" data-framer-name="Blur"></div>
@@ -214,7 +214,7 @@ layout: default
 
     <div class="text-center mt-12 md:mt-20 mb-8 md:mb-12">
         <h2 class="section-title mb-4">Hvað er næst?</h2>
-        <p class="text-base md:text-lg text-gray-300">Við viljum að allir skilji hvers vegna Bitcoin er svarið.</p>
+        <p class="text-base md:text-lg text-gray-300">Við viljum að allir skilji hvers vegna Bitcoin er svarið við vandanum.</p>
     </div>
 
     <div class="max-w-md mx-auto">
