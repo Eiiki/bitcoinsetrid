@@ -22,9 +22,15 @@ layout: default
     </div>
 
     <div class="text-center mt-8">
-        <a href="https://x.com/BitcoinSetrid" target="_blank" class="inline-block px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-colors duration-300">
-            Fylgdu okkur á X
-        </a>
+        <h3 class="text-lg text-gray-300 mb-4">Fylgdu okkur á</h3>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="https://x.com/BitcoinSetrid" target="_blank" class="inline-flex items-center justify-center w-16 h-16 bg-black hover:bg-gray-900 text-white rounded-lg transition-colors duration-300">
+                <i class="fa-brands fa-x-twitter text-2xl"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61582743115824" target="_blank" class="inline-flex items-center justify-center w-16 h-16 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors duration-300">
+                <i class="fa-brands fa-facebook-f text-2xl"></i>
+            </a>
+        </div>
     </div>
 
 </div>
